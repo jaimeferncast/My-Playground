@@ -7,9 +7,9 @@
 
 This project is based on a coding challenge accessible  <a href="https://github.com/VictorRodriguezIronhack/reto_web">here</a>.
 
-Data is stored in MongoDB Atlas and served through an API REST built using Express.js and Node.js, and deployed to Heroku.
+Data is stored in <code>MongoDB</code> Atlas and served through an <code>API REST</code> built using <code>Express.js</code> and <code>Node.js</code>, and deployed to Heroku.
 
-Client was built with React using Hooks, React Bootstrap components and some Saas, and also deployed to Heroku.
+Client was built with <code>React</code> using <code>Hooks</code>, <code>React Bootstrap</code> components and some <code>Saas</code>, and also deployed to Heroku.
 
 App can be accessed in the link below👇
 
