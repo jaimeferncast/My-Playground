@@ -6,6 +6,7 @@ const Phone = require("../models/phone.model")
 router.get('/', (req, res) => {
 
     Phone.find()
+        .select('_id id name imageFileName')
         .then(phones => res.json({ message: phones }))
         .catch((error) =>
             res.status(500).json({

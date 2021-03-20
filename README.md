@@ -1,45 +1,89 @@
-# Bienvenid@ al reto de The Phone Cave
+<h1 align="center">Welcome to Jaime's Playground 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
-Las nuevas técnologías estan llegando a los lugares mas reconditos del planeta, y con la misión de ofrecer los mejores telefonos al mejor precio del mercado, nace The Phone Cave.
+I use this repo and its different versions to practice new stuff I'm learning.
 
-<img src="https://futurechallenges.org/wp-content/uploads/2013/12/Container_Shop_in_Joe_Slovo_Park.jpg" alt="drawing" width="500"/>
+Data is stored in MongoDB Atlas and served through an API REST built using Express.js and Node.js, and deployed to Heroku.
 
-En el día de hoy hemos venido a presentarte el reto que hemos diseñado para el puesto de Javascript Developer. 
+Client was built with React using Hooks, React Bootstrap components and some Saas, and also deployed to Heroku.
 
-##### El reto
+App can be accessed in the link below👇
 
-Tu tarea es escribir una aplicación de catálogo de telefonos muy simple (o no). Los requisitos mínimos para que leamos tu código son los siguientes:
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Jaime's Playground](https://jaimes-playground.herokuapp.com/)
 
-1. Escribir una sencilla API REST en el lenguaje que te resulte más cómodo (NodeJS, Rails, Java) que...
- - Tenga 1 endpoint `/teléfonos`
- - Devuelve la carga adjunta "phones.json"
- - No hay necesidad de una capa de persistencia (BBDD). 
-2. Escribir una aplicación de React que muestre los teléfonos de la API.
- - Utilice Redux para la administración del estado y Axios (o una biblioteca similar) para obtener datos de la API REST. (Puedes no usar Redux)
- - Mostrar una lista inicial con todos los teléfonos
- - Cuando se selecciona un modelo de teléfono de la lista, se muestra una vista detallada del teléfono que muestra algunos detalles más sobre el mismo.
- - Mostrar un componente tipo spinner o de marcador de posición mientras la solicitud de la API está en curso.
- - Haz que se vea decente. No hay necesidad de un diseño súper sofisticado, pero como mínimo, hazlo algo sensible para que no se vea terrible en un teléfono móvil. Añade imágenes para cada dispositivo.
-3. Envía el código a un repositorio público de github con un README.md que explique cómo ejecutar la API y la aplicación Frontend.
+<br/>
 
-##### Los bonus
-Como abras podido comprobar ya te hemos empezado a exigir Redux, pero no te vamos a mentir nos gustaria verte desplegar todo tu arsenal de armas, así pues si sabes:
+## Install
 
-- Typescript
-- GraphQL
-- Mongo
-- Redux
-- Hooks
-- Styled Components
-- Docker
-- Eres capaz de subir a producción la página
+```sh
+cd client; npm install; cd ../server; npm install;
+```
+Paste the following in the <code>.env</code> file:
 
-Los límites los pones TU, demuestra el motivo de que acabemos eligiendote para el puesto.
+```sh
+PORT=5000
 
- - Puedes hacer una API compleja, añadir login, un carrito de la compra...
- - Puedes maquetarlo en exclusiva para movil a modo de app...
+DB_NAME=phoneCave
 
-Ahora bien, el limite de entrega es el Lunes a las 10:00 am.  
+DB_HOST=mongodb://localhost
 
+DOMAIN=http://localhost:3000
+```
 
-Para comenzar con el reto haz fork del repositorio y para entregarlo no olvides hacer PR. Currate un Readme.MD bueno si no se adjuntan las instrucciones para correr el repo tu candidatura quedará invalidada.
+## Usage
+
+<br/>
+In different terminals:
+
+```sh
+cd server; npm run dev;
+```
+```sh
+cd client; npm start;
+```
+<br/>
+<hr>
+<br/>
+
+## Endpoints Table
+
+<br/>
+
+### Client
+
+| Verb | Endpoint         | Result        |
+| ---- | ---------------- | ------------- |
+| GET  | "/"              | Home page     |
+| GET  | "/teléfonos"     | Phones list   |
+| GET  | "/teléfonos/:id" | Phone details |
+
+<br/>
+
+### Server
+
+| Verb | Endpoint            | Result                              |
+| ---- | ------------------- | ----------------------------------- |
+| GET  | "/api/phones"       | All phones json              |
+| GET  | "/api/phones/:id"   | Selected phone json fetched by Id  |
+
+<br/>
+<hr>
+<br/>
+
+## Author
+
+<br/>
+
+👤 **Jaime Fernández-Castaño**
+
+* Github: [@jaimeferncast](https://github.com/jaimeferncast)
+* LinkedIn: [@jaimeferncast](https://linkedin.com/in/jaimeferncast)
+
+<br/>
+<br/>
+<br/>
+
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
