@@ -3,7 +3,7 @@ import axios from "axios"
 class PhonesService {
   constructor() {
     this.api = axios.create({
-      baseURL: `${process.env.REACT_APP_API_URL}/api/phones`,
+      baseURL: `${process.env.REACT_APP_API_URL}/phones`,
       withCredentials: true,
     })
   }
