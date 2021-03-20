@@ -11,7 +11,7 @@ Data is stored in <code>MongoDB</code> Atlas and served through an <code>API RES
 
 Client was built with <code>React</code> using <code>Hooks</code>, <code>React Bootstrap</code> components and some <code>Saas</code>, and also deployed to Heroku.
 
-App can be accessed in the link below👇
+Access the app in the link below!👇
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Jaime's Playground](https://jaimes-playground.herokuapp.com/)
 
