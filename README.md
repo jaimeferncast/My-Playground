@@ -3,7 +3,9 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-I use this repo and its different versions to practice new stuff I'm learning.
+> I use this repo and its different versions to practice new stuff I'm learning.
+
+This project is based on a coding challenge accessible  <a href="https://github.com/VictorRodriguezIronhack/reto_web">here</a>.
 
 Data is stored in MongoDB Atlas and served through an API REST built using Express.js and Node.js, and deployed to Heroku.
 
