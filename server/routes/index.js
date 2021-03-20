@@ -1,5 +1,5 @@
 module.exports = app => {
 
     // Base URLS
-    app.use('/api/telefonos', require('./base.routes.js'))
+    app.use('/api/phones', require('./base.routes.js'))
 }
