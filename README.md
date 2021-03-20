@@ -14,7 +14,6 @@ App can be accessed in the link below👇
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Jaime's Playground](https://jaimes-playground.herokuapp.com/)
 
-<br/>
 
 ## Install
 
@@ -35,7 +34,6 @@ DOMAIN=http://localhost:3000
 
 ## Usage
 
-<br/>
 In different terminals:
 
 ```sh
@@ -44,13 +42,8 @@ cd server; npm run dev;
 ```sh
 cd client; npm start;
 ```
-<br/>
-<hr>
-<br/>
 
 ## Endpoints Table
-
-<br/>
 
 ### Client
 
@@ -60,8 +53,6 @@ cd client; npm start;
 | GET  | "/teléfonos"     | Phones list   |
 | GET  | "/teléfonos/:id" | Phone details |
 
-<br/>
-
 ### Server
 
 | Verb | Endpoint            | Result                              |
@@ -69,13 +60,7 @@ cd client; npm start;
 | GET  | "/api/phones"       | All phones json              |
 | GET  | "/api/phones/:id"   | Selected phone json fetched by Id  |
 
-<br/>
-<hr>
-<br/>
-
 ## Author
-
-<br/>
 
 👤 **Jaime Fernández-Castaño**
 
